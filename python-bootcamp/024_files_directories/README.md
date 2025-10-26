@@ -21,3 +21,16 @@ if `file_name` doesn't exist it'll create it for you in the `!pwd` (present work
 
 ```file.write(text)```
 
+## Paths
+
+### Absolute File Path
+
+Always start from `/`.
+
+### Relative File Path
+
+Always start from `!pwd` or `./`.
+
+## Pathlib
+
+Comes from Python version 3.4
